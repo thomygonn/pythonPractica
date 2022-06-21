@@ -43,7 +43,7 @@ boton_parentesis1 = Button(ventana,text="(", width=5, height=2, command = lambda
 boton_parentesis2 = Button(ventana,text=")", width=5, height=2, command = lambda: click_boton(")"))
 
 boton_div = Button(ventana,text=chr(247), width=5, height=2, command = lambda: click_boton("/"))
-boton_mult = Button(ventana,text="x", width=5, height=2, command = lambda: click_boton("x"))
+boton_mult = Button(ventana,text="x", width=5, height=2, command = lambda: click_boton("*"))
 boton_sum = Button(ventana,text="+", width=5, height=2, command = lambda: click_boton("+"))
 boton_resta = Button(ventana,text="-", width=5, height=2, command = lambda: click_boton("-"))
 boton_igual = Button(ventana,text="=", width=5, height=2, command = lambda: hacer_operacion())
