@@ -36,7 +36,7 @@ boton6 = Button(ventana,text="6", width=5, height=2, command = lambda: click_bot
 boton7 = Button(ventana,text="7", width=5, height=2, command = lambda: click_boton(7))
 boton8 = Button(ventana,text="8", width=5, height=2, command = lambda: click_boton(8))
 boton9 = Button(ventana,text="9", width=5, height=2, command = lambda: click_boton(9))
-boton0 = Button(ventana,text="0", width=10, height=2, command = lambda: click_boton(0))
+boton0 = Button(ventana,text="0", width=13, height=2, command = lambda: click_boton(0))
 
 boton_borrar = Button(ventana,text=chr(9003), width=5, height=2, command = lambda: borrar())
 boton_parentesis1 = Button(ventana,text="(", width=5, height=2, command = lambda: click_boton("("))
