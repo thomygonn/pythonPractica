@@ -21,22 +21,6 @@ class calculadora:
 
         
 
-
-""" suma1 = suma(0, [2, 2])
- """
-""" print("la suma es: ", suma1.action())
-print(suma1.bienvenida()) """
-
-
-
-
-""" print(cassio.suma(3, 6))
- """
-""" print(cassio.bienvenida())
- """
-
-
-
 class persona:
     
     def __init__(self, nombre, apellido, edad):
@@ -56,15 +40,15 @@ class empleado(persona):
         print("soy re piola por que manejo todo: ", self.sector)
 
 
-""" class gerente(persona) """
+#class gerente(persona)
 
 alan = empleado("alan", "benitez", 26, "backend")
 alan.hacerseElPiola()
 alan.presentarse()
 
-tomas = empleado("tomas", "gonzales", 26, "frontend")
+thomas = empleado("thomas", "gonzales", 26, "frontend")
 
-tomas.presentarse()
+thomas.presentarse()
 
 
 persona1 = persona("alan", "benitez", 26)
